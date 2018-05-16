@@ -1,0 +1,18 @@
+#header {
+    font-size: 150%;
+    margin: 50px;
+    animation-name: headerAnime;
+    animation-duration: 2s;
+}
+@keyframes headerAnime {
+    0% {
+        padding: 10px 0px 0px 900px;
+        color: black;
+        background-color: grey; 
+    }
+    100% {
+        padding: 10px 900px 0px 20px;
+        color:goldenrod;
+    }
+}
+
