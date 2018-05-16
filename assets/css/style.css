@@ -1,18 +1,22 @@
+body {
+    background-image: url("https://media2.giphy.com/media/WWYSFIZo4fsLC/giphy.gif");
+}
+
 #header {
     font-size: 150%;
     margin: 50px;
     animation-name: headerAnime;
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 @keyframes headerAnime {
     0% {
-        padding: 10px 0px 0px 900px;
-        color: black;
-        background-color: grey; 
+        padding: 800px 50px 1000px 800px;
     }
-    100% {
-        padding: 10px 900px 0px 20px;
-        color:goldenrod;
+    50% {
+        padding: 400px 25px 500px 400px;
+   }
+   100% {
+    margin: 50px;
     }
 }
 
